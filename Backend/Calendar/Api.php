@@ -166,7 +166,11 @@ class Api
             }
             $data[$title] = $rowsData;
         }
-        return $this->correctConcepts($data);
+        $data = $this->correctConcepts($data);
+        $dataJson['last_modify'] = time();
+        $dataJson['data'] = $data;
+        file_put_contents($fileJson, json_encode($dataJson));
+        return $data;
     }
     public function getFiles($path, $exts = [], $getContents = true)
     {
