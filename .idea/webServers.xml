@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="80716ac9-e8c7-4b21-9371-5c2ab6312278" name="Picknice VPS">
+        <fileTransfer accessType="SFTP" host="ovz7.nikolay5665.m3xdm.vps.myjino.ru" port="49444" sshConfigId="764d3181-4554-4fa5-9ef4-f9c2a9a483d2" sshConfig="root@ovz7.nikolay5665.m3xdm.vps.myjino.ru:49444 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
